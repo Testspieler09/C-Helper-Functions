@@ -6,10 +6,6 @@
  * You may use, modify, and distribute this software under the terms of the license.
 */
 
-// Use for linked list
-#define for_each_item(item, list)                                              \
-  for (T *item = list->head; item != NULL; item = item->next)
-
 // Use for array usage:
 // int arr[] = {1, 2, 3, 4, 5};
 // foreach (int *i, arr) {
